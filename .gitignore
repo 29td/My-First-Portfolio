@@ -1,0 +1,13 @@
+node_modules
+<nav class="navigator">
+        <div class="width">
+          <div class="logo"><a href="#">Portfolio</a></div>
+            <ul class="menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#"><img class="email" src="https://img.icons8.com/material-rounded/24/000000/new-post.png" alt="email icon"/></a></li>
+            </ul>
+        </div>
+    </nav>
+    <br>  <br><br>
