@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 body {
-  font-family: 'Roboto',  sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   background-color: #fff;
   height: auto;
@@ -12,8 +12,6 @@ body {
   position: absolute;
   width: 375px;
   height: 92px;
-  left: 0px;
-  top: 0px;
   background: #3c3a39;
 }
 
@@ -26,13 +24,12 @@ body {
   position: absolute;
   width: 375px;
   height: 590px;
-  left: 0px;
   top: 92px;
   background: #1c1a19;
 }
 
 h1 {
-  font-family: 'Crete Round';
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
@@ -43,7 +40,7 @@ h1 {
 .h2 {
   width: 327px;
   height: 27px;
-  font-family: 'Roboto';
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -56,7 +53,7 @@ h1 {
 .h3 {
   width: 327px;
   height: 123px;
-  font-family: 'Poppins';
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
