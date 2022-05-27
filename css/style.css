@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #fff;
+  height: auto;
+}
+
+header {
+  padding: 15px 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-between;
+  display: flex;
+  color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  width: 100%;
+  background: #3c3a39;
+}
+
+.logo {
+  color: #fff;
+  text-decoration: none;
+}
+
+.fa-bars::before {
+  color: white;
+  text-decoration: none;
+}
+
+.Home-content {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 12px;
+  width: 100%;
+  top: 92px;
+  background: #1c1a19;
+  background-image: url(/assets/images/vec.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.3px;
+  color: #ff6b00;
+}
+
+h2 {
+  width: 327px;
+  height: 27px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+p {
+  width: 327px;
+  height: 123px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  flex: none;
+  flex-grow: 0;
+}
+
+.menu {
+  display: flex;
+  flex-flow: nowrap;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.social {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  vertical-align: bottom;
+  line-height: 1.22;
+  width: 100%;
+}
