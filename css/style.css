@@ -7,25 +7,30 @@ body {
   height: auto;
 }
 
-.main {
-  padding: 10px 24px;
-  position: absolute;
-  width: 375px;
-  height: 92px;
-  background: #3c3a39;
+header {
+  padding: 15px 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  background: #3c3a39;;
+  justify-content: space-between;
+  display: flex;
+  color: rgb(255, 255, 255);
 }
 
 .Home-content {
   display: flex;
+  box-sizing: border-box;
   flex-direction: column;
   align-items: flex-start;
   padding: 120px 24px;
   gap: 12px;
-  position: absolute;
-  width: 375px;
-  height: 590px;
+  width: 100%;
   top: 92px;
   background: #1c1a19;
+  background-image: url(/assets/images/vec.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -37,7 +42,7 @@ h1 {
   color: #ff6b00;
 }
 
-.h2 {
+h2 {
   width: 327px;
   height: 27px;
   font-family: Arial, Helvetica, sans-serif;
@@ -47,10 +52,10 @@ h1 {
   line-height: 32px;
   display: flex;
   align-items: center;
-  color: #fff5e1;
+  color: #fff;
 }
 
-.h3 {
+p {
   width: 327px;
   height: 123px;
   font-family: Arial, Helvetica, sans-serif;
@@ -60,7 +65,6 @@ h1 {
   line-height: 24px;
   color: #fff;
   flex: none;
-  order: 2;
   flex-grow: 0;
 }
 
@@ -73,11 +77,11 @@ h1 {
 
 .social {
   list-style: none;
-  padding: top;
-  display: inline-block;
-  flex-direction: column;
-  justify-content: space-between;
+  padding: 0px;
+  display: flex;
   align-items: flex-start;
+  gap: 10px;
   vertical-align: bottom;
   line-height: 1.22;
+  width: 100%;
 }
