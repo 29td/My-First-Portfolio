@@ -17,7 +17,15 @@ header {
   width: 100%;
   background: #3c3a39;
 }
+.logo{
+  color:#fff;
+  text-decoration: none;
+}
 
+.fa-bars:before{
+  color: white;
+  text-decoration: none;
+}
 .Home-content {
   display: flex;
   box-sizing: border-box;
