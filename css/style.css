@@ -188,7 +188,7 @@
 
   .work-item-alt {
     width: 100%;
-    background-image: url('/assets/images/bg.png');
+    background-image: url('./assets/images/bg.png');
     display: flex;
     flex-direction: column;
   }
@@ -259,7 +259,7 @@
   .about-me {
     height: 600px;
     width: 375px;
-    background-image: url('/assets/images/Group.png');
+    background-image: url('./assets/images/Group.png');
     background-position: 100% 100%;
     background-repeat: no-repeat;
     background-size: 102px;
