@@ -2,6 +2,8 @@
 
 body {
   margin: 0;
+  overflow-x: hidden;
+  padding: 0;
 }
 
 .container {
@@ -26,7 +28,7 @@ header .logo {
 }
 
 .fa-bars::before {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -40,7 +42,7 @@ header .logo {
   width: 100%;
   top: 92px;
   background: #1c1a19;
-  background-image: url(/assets/images/vec.png);
+  background-image: url('/assets/images/vec.png');
   background-position: bottom right;
   background-repeat: no-repeat;
 }
@@ -257,6 +259,7 @@ hr {
 
 .about-wrapper {
   background-color: #1c1a19;
+  padding: 17px;
 }
 
 .about-me {
@@ -278,19 +281,22 @@ hr {
 }
 
 #skill-text {
-  /* margin-left: -50px; */
+  margin-left: -70px;
   color: #fff;
+  align-items: center;
 }
 
 #skill-img {
-  margin-left: 50px;
+  margin-left: 60px;
+  align-items: center;
 }
 
 .about .title img {
   align-self: center;
-  width: 50px;
-  height: 50px;
-  margin-right: 0;
+  width: 18px;
+  height: 18px;
+  align-items: center;
+  margin-left: 50px;
 }
 
 .about h1 {
@@ -299,17 +305,18 @@ hr {
   justify-content: center;  */
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
-  font-size: 55px;
+  font-size: 32px;
   font-weight: 400;
   line-height: 88px;
   letter-spacing: 0.37px;
-  text-align: left;
+  text-align: center;
   height: 79px;
   width: 327px;
   color: #fff;
+  margin-left: -50px;
 }
 
-.about-me1 {
+.about-wrapper .about-me .about-me1 {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-size: 55px;
