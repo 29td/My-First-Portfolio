@@ -112,13 +112,14 @@ hr {
 
 .recent-works h1 {
   font-family: 'Crete Round', sans-serif;
-  font-size: 72px;
+  font-size: 40px;
   font-weight: 400;
-  line-height: 88px;
+  line-height: 52px;
   letter-spacing: 0;
   text-align: left;
   height: 79px;
   width: 327px;
+  color: #1c1a19;
   align-self: flex-start;
 }
 
