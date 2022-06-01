@@ -42,7 +42,7 @@ header .logo {
   width: 100%;
   top: 92px;
   background: #1c1a19;
-  background-image: url('/assets/images/vec.png');
+  background-image: url('../assets/images/vec.png');
   background-position: bottom right;
   background-repeat: no-repeat;
 }
@@ -189,7 +189,7 @@ hr {
 
 .work-item-alt {
   width: 327px;
-  background-image: url('/assets/images/bg.png');
+  background-image: url('../assets/images/bg.png');
   flex-direction: column;
   padding: 24px;
 }
@@ -265,7 +265,7 @@ hr {
 .about-me {
   height: 600px;
   width: 375px;
-  background-image: url('/assets/images/Group.png');
+  background-image: url('../assets/images/Group.png');
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: 102px;
