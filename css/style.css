@@ -120,7 +120,7 @@ hr {
   line-height: 52px;
   letter-spacing: 0;
   text-align: left;
-  height: 79px;
+  height: 83px;
   width: 327px;
   color: #1c1a19;
   align-self: flex-start;
@@ -144,8 +144,21 @@ hr {
   margin-bottom: 24px;
 }
 
+.work-item h1 {
+  width: 327px;
+  height: 36px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #091e42;
+}
+
 .work-item p {
-  color: black;
+  color: #091e42;
   height: 147px;
 
   /* width: 100%; */
@@ -172,9 +185,8 @@ hr {
   list-style: none;
 }
 
-.work-item a {
+.work-item button {
   background: #ff6b00;
-  padding: 12px;
   width: 124px;
   height: 48px;
   align-items: center;
@@ -242,7 +254,11 @@ hr {
 .work-item-alt button {
   background: #ff6b00;
   width: 327px;
-  height: 48px;
+  height: 42px;
+  margin-left: -24px;
+  left: 0;
+  right: 0;
+  top: 0;
   font-style: normal;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
@@ -251,7 +267,7 @@ hr {
   font-size: 17px;
   display: flex;
   flex-direction: column;
-  padding: 12px 24px;
+  padding: 12px;
   box-sizing: border-box;
   text-align: center;
   align-items: center;
@@ -312,9 +328,9 @@ hr {
 }
 
 .about h1 {
-  /* display: flex;
+  display: flex;
   align-items: center;
-  justify-content: center;  */
+  justify-content: center;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-size: 32px;
@@ -347,28 +363,35 @@ hr {
   font-family: 'Arial, Helvetica', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 24px;
   color: #fff;
   flex: none;
+  order: 1;
   flex-grow: 0;
 }
 
-.about-me a {
-  width: 137px;
+.about-me button {
+  width: 161px;
   background: #ff6b00;
-  height: 24px;
+  height: 48px;
   font-style: normal;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
-  line-height: 64px;
+  line-height: 24px;
   font-size: 17px;
-  padding: 12px;
+  gap: 10px;
+  flex-direction: row;
+  letter-spacing: 0.03em;
   align-items: center;
   text-align: center;
   color: white;
   text-decoration: none;
+  display: flex;
   margin-top: 24px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
 }
 
 .about hr {
