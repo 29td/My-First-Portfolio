@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@100&display=swap');
 
 body {
   margin: 0;
@@ -190,6 +191,7 @@ hr {
 .work-item-alt {
   width: 327px;
   background-image: url('../assets/images/bg.png');
+  background-repeat: no-repeat;
   flex-direction: column;
   padding: 24px;
 }
@@ -237,7 +239,7 @@ hr {
   margin-left: 0;
 }
 
-.work-item-alt a {
+.work-item-alt button {
   background: #ff6b00;
   width: 327px;
   height: 48px;
@@ -259,10 +261,14 @@ hr {
 
 .about-wrapper {
   background-color: #1c1a19;
-  padding: 17px;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
   margin: 0;
-  width: 375px;
+  width: 100%;
   height: 1901px;
+  right: 0;
   left: 0;
   top: 4137px;
   position: absolute;
@@ -271,6 +277,7 @@ hr {
 .about-me {
   height: 600px;
   width: 375px;
+  right: 0;
   background-image: url('../assets/images/Group.png');
   background-position: 100% 100%;
   background-repeat: no-repeat;
