@@ -260,6 +260,12 @@ hr {
 .about-wrapper {
   background-color: #1c1a19;
   padding: 17px;
+  margin: 0;
+  width: 375px;
+  height: 1901px;
+  left: 0;
+  top: 4137px;
+  position: absolute;
 }
 
 .about-me {
@@ -268,7 +274,6 @@ hr {
   background-image: url('../assets/images/Group.png');
   background-position: 100% 100%;
   background-repeat: no-repeat;
-  background-size: 102px;
 }
 
 .title {
@@ -319,7 +324,7 @@ hr {
 .about-wrapper .about-me .about-me1 {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
-  font-size: 55px;
+  font-size: 72px;
   font-weight: 400;
   line-height: 88px;
   letter-spacing: 0.37px;
@@ -374,5 +379,10 @@ hr {
   color: white;
   list-style: none;
   text-align: center;
-  font-size: 24px;
+  flex-direction: column;
+  justify-content: space-around;
+  display: flex;
+  line-height: 43px;
+  font-size: 22px;
+  margin-left: -50px;
 }
