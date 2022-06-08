@@ -9,42 +9,38 @@
 
 - HTML/CSS
 - Node.js
-
-
-## Live Demo (if available)
-
-[Live Demo Link](127.0.0.1:5500/index.html)
+- git-bash/Vscode
+- laptop windows 10
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+Git-Download & install Vscode-Download & install GitHub browser
 
 ### Setup
+On the top-right on your GitHub create a new repo name it with respective to your GitHub name.
 
 ### Install
+Install VSCode Install Git-bash
 
 ### Usage
 
 ### Run tests
+You can run the test on VSCode
 
 ### Deployment
 
 
 
-## Authors
+## Author
 
-👤 **Author1**
+👤 **Nonhlanhla**
 
-- GitHub: [@githubhandle](https://github.com/29td)
-- Twitter: [@twitterhandle](https://twitter.com/NonhlanhlaMnde6)
-
+-  GitHub: [@29td](https://github.com/githubhandle)
+-  Twitter: [@NonhlanhlaMnde6](https://twitter.com/twitterhandle)
+-  LinkedIn: [LinkedIn](https://linkedin.com/in/nonhlanhla-mndebele-ab7448226)
 
 ## 🤝 Contributing
 
@@ -56,11 +52,16 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
+## Attribution note
+
+- I've add my linkedin ID to the readme file 
+- Removed the live demo link
+
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Special thanks o all those who help me out with my code when i was strungling.
+- It is such a great honour to be sharing my work with everyone. I know some may learn something from my work some may help me learn new things too.
+- 
 
 ## 📝 License
 
