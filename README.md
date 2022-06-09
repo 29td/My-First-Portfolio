@@ -13,6 +13,16 @@
 - laptop windows 10
 
 
+
+## Getting Started
+=======
+
+
+## Live Demo (if available)
+
+[Live Demo Link](127.0.0.1:5500/index.html)
+
+
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 
@@ -37,6 +47,14 @@ You can run the test on VSCode
 ## Author
 
 👤 **Nonhlanhla**
+=======
+
+👤 **Nonhlanhla**
+
+-  GitHub: [@29td](https://github.com/githubhandle)
+-  Twitter: [@NonhlanhlaMnde6](https://twitter.com/twitterhandle)
+-  LinkedIn: [LinkedIn](https://linkedin.com/in/nonhlanhla-mndebele-ab7448226)
+
 
 -  GitHub: [@29td](https://github.com/githubhandle)
 -  Twitter: [@NonhlanhlaMnde6](https://twitter.com/twitterhandle)
@@ -61,7 +79,7 @@ Give a ⭐️ if you like this project!
 
 - Special thanks o all those who help me out with my code when i was strungling.
 - It is such a great honour to be sharing my work with everyone. I know some may learn something from my work some may help me learn new things too.
-- 
+
 
 ## 📝 License
 
