@@ -302,6 +302,7 @@ hr {
 
 #skill-text {
   color: #fff;
+  margin-left: -110px;
   align-items: center;
 }
 
@@ -332,7 +333,7 @@ hr {
   height: 79px;
   width: 327px;
   color: #fff;
-  margin-left: -50px;
+  margin-left: -65px;
 }
 
 .about-wrapper .about-me .about-me1 {
@@ -388,12 +389,13 @@ hr {
   color: white;
   list-style: none;
   text-align: center;
+  align-items: flex-start;
   flex-direction: column;
   justify-content: space-around;
   display: flex;
   line-height: 43px;
   font-size: 22px;
-  margin-left: -50px;
+  margin-left: 55px;
 }
 
 .contact-me {
@@ -731,6 +733,10 @@ a {
 
   .about-content p {
     max-width: 556px;
+  }
+
+  .about-me img {
+    margin-left: 320px;
   }
 
   /* about section end */
