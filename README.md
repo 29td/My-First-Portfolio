@@ -15,8 +15,6 @@
 
 
 ## Getting Started
-=======
-
 
 ## Live Demo (if available)
 
@@ -47,14 +45,6 @@ You can run the test on VSCode
 ## Author
 
 👤 **Nonhlanhla**
-=======
-
-👤 **Nonhlanhla**
-
--  GitHub: [@29td](https://github.com/githubhandle)
--  Twitter: [@NonhlanhlaMnde6](https://twitter.com/twitterhandle)
--  LinkedIn: [LinkedIn](https://linkedin.com/in/nonhlanhla-mndebele-ab7448226)
-
 
 -  GitHub: [@29td](https://github.com/githubhandle)
 -  Twitter: [@NonhlanhlaMnde6](https://twitter.com/twitterhandle)
