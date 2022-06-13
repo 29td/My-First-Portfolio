@@ -18,7 +18,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](127.0.0.1:5500/index.html)
+https://29td.github.io/My-First-Portfolio/
 
 
 ## Getting Started
