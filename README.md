@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello Microverse
+# My Portfolio
 
 > Add linters to html/css.
 
@@ -15,12 +15,9 @@
 
 
 ## Getting Started
-=======
 
 
 ## Live Demo (if available)
-
-[Live Demo Link](127.0.0.1:5500/index.html)
 
 
 ## Getting Started
@@ -46,8 +43,6 @@ You can run the test on VSCode
 
 ## Author
 
-👤 **Nonhlanhla**
-=======
 
 👤 **Nonhlanhla**
 
@@ -55,10 +50,6 @@ You can run the test on VSCode
 -  Twitter: [@NonhlanhlaMnde6](https://twitter.com/twitterhandle)
 -  LinkedIn: [LinkedIn](https://linkedin.com/in/nonhlanhla-mndebele-ab7448226)
 
-
--  GitHub: [@29td](https://github.com/githubhandle)
--  Twitter: [@NonhlanhlaMnde6](https://twitter.com/twitterhandle)
--  LinkedIn: [LinkedIn](https://linkedin.com/in/nonhlanhla-mndebele-ab7448226)
 
 ## 🤝 Contributing
 
