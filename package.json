@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/29td/My-First-Portfolio/issues"
   },
-  "homepage": "https://github.com/29td/My-First-Portfolio#readme"
+  "homepage": "https://github.com/29td/My-First-Portfolio#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1"
+  }
 }
