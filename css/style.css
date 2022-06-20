@@ -242,6 +242,7 @@ hr {
 }
 
 .work-item button {
+
     background: #ff6b00;
     width: 124px;
     height: 48px;
@@ -254,6 +255,11 @@ hr {
     font-family: "Inter", sans-serif;
     font-style: normal;
     letter-spacing: 0.03em;
+
+}
+
+.work-item button:hover {
+  width: 300px;
 }
 
 .work-item-alt {
@@ -310,21 +316,27 @@ hr {
     margin-left: 0;
 }
 
-.work-item-alt button {
-    background: #ff6b00;
-    width: 327px;
-    margin-left: -24px;
-    font-style: normal;
-    font-family: "Inter", sans-serif;
-    font-weight: 700;
-    letter-spacing: 0.03em;
-    font-size: 17px;
-    flex-direction: column;
-    padding: 12px;
-    text-align: center;
-    align-items: center;
-    color: white;
-    text-decoration: none;
+.work-item-alt button::before {
+  background: #ff6b00;
+  width: 327px;
+  margin-left: -24px;
+  transition: width 2s, height 4s, transform 2s;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  font-size: 17px;
+  flex-direction: column;
+  padding: 12px;
+  text-align: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+
+}
+
+.work-item-alt button:hover {
+  width: 300px;
 }
 
 .about-wrapper {
@@ -408,19 +420,25 @@ hr {
     flex: none;
 }
 
-.about-me button {
-    width: 161px;
-    background: #ff6b00;
-    height: 48px;
-    font-style: normal;
-    font-family: "Inter", sans-serif;
-    font-weight: 700;
-    font-size: 17px;
-    letter-spacing: 0.03em;
-    align-items: center;
-    text-align: center;
-    color: white;
-    text-decoration: none;
+
+.about-me button::before {
+  width: 161px;
+  background: #ff6b00;
+  height: 48px;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  transition: width 2s linear 1s;
+  letter-spacing: 0.03em;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.about-me button:hover {
+  width: 300px;
 }
 
 .about hr {
@@ -509,28 +527,33 @@ form {
 }
 
 .button {
-    width: 131px;
-    height: 48px;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    padding: 12px;
-    flex-direction: row;
-    gap: 10px;
-    margin-top: 10px;
-    font-weight: 700;
-    border: none;
-    font-size: 17px;
-    background-color: #ff6b00;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-    margin-left: 100px;
-    color: #fff;
-    flex: none;
-    order: 3;
-    flex-grow: 0;
+  width: 131px;
+  height: 48px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  padding: 12px;
+  flex-direction: row;
+  transition: width 2s linear 1s;
+  gap: 10px;
+  margin-top: 10px;
+  font-weight: 700;
+  border: none;
+  font-size: 17px;
+  background-color: #ff6b00;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-left: 100px;
+  color: #fff;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.button:hover {
+  width: 300px;
 }
 
 .hl {

@@ -16,7 +16,6 @@
 
 ## Getting Started
 
-
 ## Live Demo (if available)
 https://29td.github.io/My-First-Portfolio/
 
@@ -45,9 +44,11 @@ You can run the test on VSCode
 
 👤 **Nonhlanhla**
 
+
 -  GitHub: [@29td](https://github.com/githubhandle)
 -  Twitter: [@NonhlanhlaMnde6](https://twitter.com/twitterhandle)
 -  LinkedIn: [LinkedIn](https://linkedin.com/in/nonhlanhla-mndebele-ab7448226)
+
 
 
 ## 🤝 Contributing
