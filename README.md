@@ -52,6 +52,7 @@ You can run the test on VSCode
 
 
 ## 🤝 Contributing
+[Aquinas Moriasi](https://github.com/aquinasmoriasi)
 
 Contributions, issues, and feature requests are welcome!
 
