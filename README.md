@@ -2,12 +2,13 @@
 
 # My Portfolio
 
-> Add linters to html/css.
+> Add linters to html/css/js
+
 
 
 ## Built With
 
-- HTML/CSS
+- HTML/CSS/JS
 - Node.js
 - git-bash/Vscode
 - laptop windows 10
