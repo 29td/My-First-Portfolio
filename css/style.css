@@ -38,11 +38,6 @@ header .logo {
   text-decoration: none;
 }
 
-.fa-bars::before {
-  color: #fff;
-  text-decoration: none;
-}
-
 .home-content {
   display: flex;
   flex-direction: column;
