@@ -34,3 +34,31 @@ iconLink3.addEventListener('click', () => {
   icons.style.display = 'none';
   logo.style.visibility = 'visible';
 });
+
+//email validation
+const email = document.querySelector('[type=email]');
+const emailRegex = /^[a-z]+@[a-z]{3,}.[a-z]{2,}?.*([a-z]{2,})/g
+const errorMsg = 'Please enter a lowercase email'
+const errorMessage = document.querySelector('small')
+const form = document.querySelector ('.form')
+
+// errorMessage.textContent = "please enter a valid mail"; 
+
+
+
+// function showMessage(email, message, type) {
+//   const errorMessage = email.parentNode.querySelector('small')
+//   errorMessage.textContent = message; 
+//   if (type) {
+//     return valid;
+//   }
+//   return invalid;
+// }
+
+// form.addEventListener('submit',(event) => {
+//   if(showMessage(email) = invalid) {
+//     event.preventDefault();
+//     showMessage(email,errorMsg,false);
+//   }
+//   form.submit();
+// })
