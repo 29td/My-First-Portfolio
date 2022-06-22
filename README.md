@@ -2,12 +2,15 @@
 
 # My Portfolio
 
-> Add linters to html/css.
+> Add linters to html/css/js
+> 
+> Made changes to the hamburger so that it's clickable.
+
 
 
 ## Built With
 
-- HTML/CSS
+- HTML/CSS/JS
 - Node.js
 - git-bash/Vscode
 - laptop windows 10
@@ -40,7 +43,7 @@ You can run the test on VSCode
 
 
 
-## Author
+## Authors
 
 👤 **Nonhlanhla**
 
@@ -48,6 +51,13 @@ You can run the test on VSCode
 -  GitHub: [@29td](https://github.com/githubhandle)
 -  Twitter: [@NonhlanhlaMnde6](https://twitter.com/twitterhandle)
 -  LinkedIn: [LinkedIn](https://linkedin.com/in/nonhlanhla-mndebele-ab7448226)
+
+👤 **Aquinas**
+
+- [Aquinas Moriasi](https://github.com/aquinasmoriasi)
+
+
+
 
 ## 🤝 Contributing
 
