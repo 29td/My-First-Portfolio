@@ -1,36 +1,44 @@
-const ham = document.querySelector('.ham');
-const logo = document.querySelector('.logo');
-const icons = document.querySelector('.icons');
-const iconLink = document.querySelector('.icon-link');
-const iconLink2 = document.querySelector('.icon-link2');
-const iconLink3 = document.querySelector('.icon-link3');
+const openProjectButton = document.querySelector('#project');
+const closeProjectButtons = document.querySelector('#cross');
+// const lay = document.querySelector('#lay');
 
-ham.addEventListener('click', () => {
-  if (ham.classList.contains('active')) {
-    ham.classList.remove('active');
-    logo.style.visibility = 'visible';
-    icons.style.display = 'none';
-  } else {
-    ham.classList.add('active');
-    logo.style.visibility = 'hidden';
-    icons.style.display = 'block';
-  }
-});
+openProjectButton.addEventListener('click', () => {
+  const work = document.querySelector('.work-content');
+  const div = document.createElement('div');
+  div.textContent = 'all';
+//   div.style.minHeight = '100vh';
+//   div.style.backgroundColor = 'red';
+  work.append(div);
+  work.classList.add('pop-up');
+})
 
-iconLink.addEventListener('click', () => {
-  ham.classList.toggle('active');
-  icons.style.display = 'none';
-  logo.style.visibility = 'visible';
-});
+// body.appendChild(lay);
 
-iconLink2.addEventListener('click', () => {
-  ham.classList.toggle('active');
-  icons.style.display = 'none';
-  logo.style.visibility = 'visible';
-});
 
-iconLink3.addEventListener('click', () => {
-  ham.classList.toggle('active');
-  icons.style.display = 'none';
-  logo.style.visibility = 'visible';
-});
+// openProjectButtons.forEach(button => {
+//   button.addEventListener('click', () => {
+//     const project = document.querySelector(button.dataset.projectTarget);
+//     openProject(project);
+//     })
+// })
+
+// closeProjectButtons.forEach(button => {
+//   button.addEventListener('click', () => {
+//     const Project = button.closest('.project');
+//     closeProject(Project);
+//     })
+//   })
+
+// function openProject(project) {
+//   if (project == null)
+//     return;
+//     project.classList.add('active');
+//     lay.classList.add('active');
+// }
+
+// function closeProject(project) {
+//   if (project == null)
+//     return;
+//     project.classList.remove('active');
+//     lay.classList.remove('active');
+// }
