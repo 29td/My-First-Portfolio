@@ -27,7 +27,18 @@ header {
   display: none;
 }
 
+.log {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 header .logo {
+  color: #fff;
+  text-decoration: none;
+}
+
+.fa-bars::before {
   color: #fff;
   text-decoration: none;
 }
