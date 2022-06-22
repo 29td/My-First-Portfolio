@@ -41,7 +41,7 @@ You can run the test on VSCode
 
 
 
-## Author
+## Authors
 
 👤 **Nonhlanhla**
 
@@ -50,10 +50,14 @@ You can run the test on VSCode
 -  Twitter: [@NonhlanhlaMnde6](https://twitter.com/twitterhandle)
 -  LinkedIn: [LinkedIn](https://linkedin.com/in/nonhlanhla-mndebele-ab7448226)
 
+👤 **Aquinas**
+
+- [Aquinas Moriasi](https://github.com/aquinasmoriasi)
+
+
 
 
 ## 🤝 Contributing
-[Aquinas Moriasi](https://github.com/aquinasmoriasi)
 
 Contributions, issues, and feature requests are welcome!
 
