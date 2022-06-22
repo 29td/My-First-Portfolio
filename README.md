@@ -3,6 +3,7 @@
 # My Portfolio
 
 > Add linters to html/css/js
+> Made changes to the hamburger so that it's clickable.
 
 
 
