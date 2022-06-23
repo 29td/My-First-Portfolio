@@ -127,7 +127,7 @@ hr {
   gap: 24px;
   width: 90%;
   height: 100%;
-  overflow: auto;
+  /* overflow: auto; */
   z-index: 10;
   /* visibility: hidden; */
   /* display: none; */
@@ -993,15 +993,17 @@ form {
     /* margin: 0 142px 676px 142px; */
     left: 3%;
     right: 0;
-    top: 112px;
+    /* top: 112px; */
     background-color: #fff;
     border: 1px solid #dfe1e6;
     border: 1px solid red;
-    flex-direction: column;
-    align-items: flex-start;
+   
     /* transform: translate(-50%, -50%) scale(1); */
     /* transition: transform 0.4s, top 0.4s; */
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
     gap: 24px;
     width: 90%;
     height: 631px;
@@ -1019,7 +1021,8 @@ form {
     list-style: none;
     text-decoration: none;
     padding: 0;
-    margin-left: -48px;
+    margin-left: 25px;
+    margin-bottom: 23px;
     gap: 12px;
     display: flex;
     justify-content: flex-start;  
@@ -1032,15 +1035,20 @@ form {
     border: 1px solid #8993a4;
     list-style: none;
   }
+
+  #pop-up-img {
+    width: initial;
+    height: 448px;
+    margin: -32px 25px 0 24px;
+  }
   
   .project-header {
-    padding: 20px;
     /* background-color: #fff; */
     margin: auto;
-    width: 80%;
     justify-content: space-between;
     align-items: center;
-  }
+    margin: 0 0 -33px 80px;
+   }
   
   .project-title {
     margin-left: -78px;
@@ -1073,22 +1081,24 @@ form {
   
   .hub {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin: 0;
     padding: 0;
     gap: 12px;
-    width: 90%;
+    width: 300px;
+    position: absolute;
+    bottom: 28px;
+    right: 107px;
   }
   
   .power {
     background-color: #ff6b00;
-    padding: 12px;
+    padding: 7px;
     font-size: 17px;
     color: #fff;
     display: flex;
     justify-content: space-around;
     width: 50%;
-  
   }
   
   .cross:hover, .cross:focus {
@@ -1104,8 +1114,10 @@ form {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    width: 311px;
-    height: 220px;
+    height: 336px;
+    position: absolute;
+    right: 93px;
+    bottom : 119px;
   }
   
   /* .pop-up {
