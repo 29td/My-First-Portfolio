@@ -22,6 +22,7 @@ let card = `    <div class="seeproject" id="project">
 </div>
 </div>
 <div class="lay" id="lay"></div>
+
 `
 function openSeeproject() {
   seeproject.classList.add('open-seeproject');
