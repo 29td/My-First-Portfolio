@@ -987,4 +987,155 @@ form {
   .form button {
     margin-left: 0;
   }
+
+  .seeproject {
+    position: absolute;
+    /* margin: 0 142px 676px 142px; */
+    left: 3%;
+    right: 0;
+    top: 112px;
+    background-color: #fff;
+    border: 1px solid #dfe1e6;
+    border: 1px solid red;
+    flex-direction: column;
+    align-items: flex-start;
+    /* transform: translate(-50%, -50%) scale(1); */
+    /* transition: transform 0.4s, top 0.4s; */
+    display: flex;
+    gap: 24px;
+    width: 90%;
+    height: 631px;
+    /* overflow: auto; */
+    z-index: 10;
+    /* visibility: hidden; */
+    /* display: none; */
+  }
+  
+  /* .seeproject:active {
+    opacity: 0;
+  } */
+  
+  .project-list ul {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin-left: -48px;
+    gap: 12px;
+    display: flex;
+    justify-content: flex-start;  
+  }
+  
+  .project-list ul li {
+    margin-bottom: 24px;
+    padding: 10px;
+    color: #091e42;
+    border: 1px solid #8993a4;
+    list-style: none;
+  }
+  
+  .project-header {
+    padding: 20px;
+    /* background-color: #fff; */
+    margin: auto;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .project-title {
+    margin-left: -78px;
+    font-family: 'Crete round';
+    
+    /* font-style: normal; */
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+  
+  .cross {
+    position: absolute;
+    top: 28px;
+    right: 20px;
+    border: none;
+    color: #67798e;
+    float: right;
+    /* left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%; */
+    outline: none;
+    background: none;
+    mix-blend-mode: multiply;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .hub {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    gap: 12px;
+    width: 90%;
+  }
+  
+  .power {
+    background-color: #ff6b00;
+    padding: 12px;
+    font-size: 17px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  
+  }
+  
+  .cross:hover, .cross:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .project-body {
+    color: #344563;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 311px;
+    height: 220px;
+  }
+  
+  /* .pop-up {
+    position: relative;
+    opacity: 1;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 40px;
+    background-color: red; */
+    /* top: 0;
+    left: 0; */
+    /* bottom: 0; */
+    /* right: 0; */
+    /* z-index: 10;
+  } */
+  
+  #lay {
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: 200MS ease-in-out;
+    pointer-events: none;
+  }
+  
+  #lay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+  
 }
