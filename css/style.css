@@ -113,6 +113,12 @@ hr {
   flex-grow: 0;
 }
 
+.menu-popup {
+  background-color: #fff;
+  z-index: 1;
+  display: none;
+}
+
 .seeproject {
   position: absolute;
   margin: 16px;
@@ -758,7 +764,10 @@ form {
 
   #nav-icons li {
     display: flex;
-    border: 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 24px;
   }
 
   .icon {
@@ -935,12 +944,6 @@ form {
     display: none;
   }
 
-  .content1 .button1 {
-    display: block;
-    margin-top: 326px;
-    height: 100%;
-  }
-
   /* work section end */
 
   /* about section start */
@@ -1011,7 +1014,7 @@ form {
   }
 
   .seeproject {
-    position: absolute;
+    /* position: relative; */
     /* margin: 0 142px 676px 142px; */
     left: 7%;
     top: 65px;
@@ -1139,6 +1142,15 @@ form {
     bottom : 129px;
   }
   
+  #ject1 {
+    background-color: #ff6b00;
+    animation: none;
+    transition: none;
+    display: block;
+    margin-top: 326px;
+    height: 30px;
+  }
+
   /* .pop-up {
     position: relative;
     opacity: 1;

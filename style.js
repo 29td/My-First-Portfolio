@@ -1,6 +1,4 @@
 const popup = document.querySelector('.menu-popup');
-const myButton = document.querySelector('#ject');
-const closeButton = document.querySelector('.cross');
 popup.innerHTML = `    <div class="seeproject" id="project">
 <div class="project-header">
     <span class="cross">&times;</span>
@@ -25,13 +23,24 @@ popup.innerHTML = `    <div class="seeproject" id="project">
 </div>
 `;
 
-myButton.addEventListner('click', () => {
+const Btn = document.querySelector('#ject');
+const closeButton = document.querySelector('.cross');
+
+// Btn.addEventListner('click', () => {
+//     // popup.style.display = 'block';
+//     popup.style.backgroundColor = 'red';
+
+// });
+function displayMenu() {
+    popup.style.display = 'block';
+    window.scroll({top: 0, left: 0});
+
+}
+Btn.addEventListener('click', displayMenu)
+function closeMenu() {
     popup.style.display = 'none';
+}
+closeButton.addEventListener('click', closeMenu)
 
-});
 
-closeButton.addEventListner('click', () => {
-    popup.style.display = 'none';
-
-});
 
