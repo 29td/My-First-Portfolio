@@ -243,7 +243,7 @@ hr {
   /* right: 0; */
   /* z-index: 10;
 } */
-
+/* 
 #lay {
   position: fixed;
   opacity: 0;
@@ -258,7 +258,7 @@ hr {
 #lay.active {
   opacity: 1;
   pointer-events: all;
-}
+} */
 
 .recent-works {
   width: 100%;
@@ -747,6 +747,18 @@ form {
 @media only screen and (min-width: 768px) {
   header {
     max-height: 53px;
+    display: flex;
+  }
+  
+  #nav-icons {
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+  }
+
+  #nav-icons li {
+    display: flex;
+    border: 0;
   }
 
   .icon {
@@ -780,9 +792,14 @@ form {
   }
 
   .menu {
-    display: none;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-flow: nowrap;
+    list-style: none;
+    justify-content: space-between;
   }
-
+  
   .icons ul {
     display: flex;
     list-style-type: none;
@@ -860,6 +877,11 @@ form {
   .title-section hr {
     display: none;
   }
+
+  .fa-bars::before {
+    color: #fff;
+    text-decoration: none;
+  }  
 
   .work-list {
     max-width: 1156px;
@@ -991,13 +1013,10 @@ form {
   .seeproject {
     position: absolute;
     /* margin: 0 142px 676px 142px; */
-    left: 3%;
-    right: 0;
-    /* top: 112px; */
+    left: 7%;
+    top: 65px;
     background-color: #fff;
     border: 1px solid #dfe1e6;
-    border: 1px solid red;
-   
     /* transform: translate(-50%, -50%) scale(1); */
     /* transition: transform 0.4s, top 0.4s; */
     display: flex;
@@ -1005,7 +1024,7 @@ form {
     align-items: flex-start;
     flex-wrap: wrap;
     gap: 24px;
-    width: 90%;
+    width: 82%;
     height: 631px;
     /* overflow: auto; */
     z-index: 10;
@@ -1088,17 +1107,17 @@ form {
     width: 300px;
     position: absolute;
     bottom: 28px;
-    right: 107px;
+    right: 33px;
   }
   
   .power {
     background-color: #ff6b00;
-    padding: 7px;
+    padding: 5px;
     font-size: 17px;
     color: #fff;
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 39%;
   }
   
   .cross:hover, .cross:focus {
@@ -1116,8 +1135,8 @@ form {
     line-height: 24px;
     height: 336px;
     position: absolute;
-    right: 93px;
-    bottom : 119px;
+    right: 20px;
+    bottom : 129px;
   }
   
   /* .pop-up {
@@ -1134,20 +1153,14 @@ form {
     /* z-index: 10;
   } */
   
-  #lay {
-    position: fixed;
-    opacity: 0;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    transition: 200MS ease-in-out;
-    pointer-events: none;
-  }
-  
-  #lay.active {
-    opacity: 1;
-    pointer-events: all;
+  #lay1 {
+    display: none;
+    width: 100vw;
+    position: absolute;
+    height: 1500vh;
+    background-color: rgba(255, 255, 255, 0.24);
+    filter: blur(15px);
+    mix-blend-mode: multiply;
   }
   
 }
