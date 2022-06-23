@@ -24,17 +24,18 @@ let card = `    <div class="seeproject" id="project">
 <div class="lay" id="lay"></div>
 
 `
-function openSeeproject() {
-  seeproject.classList.add('open-seeproject');
-  seeproject.style.visibility = 'hidden';
-  seeproject.style.display = 'block';
-}
 
-function closeSeeproject() {
-  seeproject.classList.add('open-seeproject');
-  seeproject.style.visibility = 'visible';
-  seeproject.style.display = 'none';
-}
+// function openSeeproject() {
+//   seeproject.classList.add('open-seeproject');
+//   seeproject.style.visibility = 'hidden';
+//   seeproject.style.display = 'block';
+// }
+
+// function closeSeeproject() {
+//   seeproject.classList.add('open-seeproject');
+//   seeproject.style.visibility = 'visible';
+//   seeproject.style.display = 'none';
+// }
 
 
 
@@ -100,3 +101,21 @@ function closeSeeproject() {
 //     project.classList.remove('active');
 //     lay.classList.remove('active');
 // }
+
+let closeBtn = document.querySelector('.cross');
+let popupDt = document.querySelector('#project-see');
+let projectOpen = document.querySelector('#ject');
+let bgDiv = document.querySelector('#lay1');
+// let projectclose = document.querySelector('.home-content');
+
+projectOpen.addEventListener('click', () => {
+    popupDt.style.display = 'block';
+    bgDiv.style.display = 'block';
+    bgDiv.style.filter = 'blur(5px)';
+})
+
+closeBtn.addEventListener('click', () => {
+    popupDt.style.display = 'none';
+    projectclose.style.filter = 'blur(0)';
+    bgDiv.style.display = 'none';
+});
