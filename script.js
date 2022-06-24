@@ -1,23 +1,22 @@
-// const popup = document.querySelector('.menu-popup');
 const mobilePopup = document.querySelector('.menu-popup');
 const desktopPopup = document.querySelector('.desktop-popup');
 
 const project = {
-    name: 'Multi Post Stories',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. In repellendus doloribus aliquid quas cum provident harum similique rerum illo nam non, totam vero earum vitae delectus, debitis incidunt voluptatibus ipsa!',
-    featuredImage: './assets/images/Snap.png',
-    technologies: ['html', 'bootstrap', 'Ruby on rails'],
-    linkToLiveVersion: 'https://29td.github.io/My-First-Portfolio/',
-    linkToSource: 'https://github.com/29td/My-First-Portfolio'
+  name: 'Multi Post Stories',
+  description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. In repellendus doloribus aliquid quas cum provident harum similique rerum illo nam non, totam vero earum vitae delectus, debitis incidunt voluptatibus ipsa!',
+  featuredImage: './assets/images/Snap.png',
+  technologies: ['html', 'bootstrap', 'Ruby on rails'],
+  linkToLiveVersion: 'https://29td.github.io/My-First-Portfolio/',
+  linkToSource: 'https://github.com/29td/My-First-Portfolio',
 };
 
 const project1 = {
-    name: 'Keeping track of hundreds  of components website',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    featuredImage: './assets/images/plc-dt.png',
-    technologies: ['html', 'bootstrap', 'Ruby on rails'],
-    linkToLiveVersion: 'https://29td.github.io/My-First-Portfolio/',
-    linkToSource: 'https://github.com/29td/My-First-Portfolio'
+  name: 'Keeping track of hundreds  of components website',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+  featuredImage: './assets/images/plc-dt.png',
+  technologies: ['html', 'bootstrap', 'Ruby on rails'],
+  linkToLiveVersion: 'https://29td.github.io/My-First-Portfolio/',
+  linkToSource: 'https://github.com/29td/My-First-Portfolio',
 };
 
 mobilePopup.innerHTML = `    <div class="seeproject" id="project">
@@ -72,43 +71,40 @@ const closeButton = document.querySelector('.cross');
 const closeButton1 = document.querySelector('.crossdt');
 const hero = document.querySelector('#back');
 
-const mediaQuery = window.matchMedia('(max-width: 768px)')
-// Check if the media query is true
-if (mediaQuery.matches) {
-    function displayMenu() {
-        mobilePopup.style.display = 'block';
-        hero.style.display = 'block';
-        window.scroll({top: 0, left: 0});
-    
-    }
-    Btn.addEventListener('click', displayMenu)
-    function closeMenu() {
-        mobilePopup.style.display = 'none';
-        hero.style.display = 'none';
-    }
-    Btn1.addEventListener('click', displayMenu)
-    function closeMenu() {
-        mobilePopup.style.display = 'none';
-        hero.style.display = 'none';
-    }
-    closeButton.addEventListener('click', closeMenu)    
+function displayMenu2() {
+  mobilePopup.style.display = 'block';
+  hero.style.display = 'block';
+  window.scroll({ top: 0, left: 0 });
 }
-else {
-    function displayMenu() {
-        desktopPopup.style.display = 'block';
-        hero.style.display = 'block';
-        window.scroll({top: 0, left: 0});
-    
-    }
-    Btn.addEventListener('click', displayMenu)
-    function closeMenu() {
-        desktopPopup.style.display = 'none';
-        hero.style.display = 'none';
-    }
-    Btn1.addEventListener('click', displayMenu)
-    function closeMenu() {
-        desktopPopup.style.display = 'none';
-        hero.style.display = 'none';
-    }
-    closeButton1.addEventListener('click', closeMenu)    
+function closeMenu4() {
+  mobilePopup.style.display = 'none';
+  hero.style.display = 'none';
+}
+
+function displayMenu() {
+  desktopPopup.style.display = 'block';
+  hero.style.display = 'block';
+  window.scroll({ top: 0, left: 0 });
+}
+
+function closeMenu2() {
+  desktopPopup.style.display = 'none';
+  hero.style.display = 'none';
+}
+
+function closeMenu() {
+  desktopPopup.style.display = 'none';
+  hero.style.display = 'none';
+}
+
+const mediaQuery = window.matchMedia('(max-width: 768px)');
+if (mediaQuery.matches) {
+  Btn.addEventListener('click', displayMenu2);
+  Btn1.addEventListener('click', displayMenu2);
+  closeButton.addEventListener('click', closeMenu4);
+} else {
+  Btn.addEventListener('click', displayMenu);
+  Btn1.addEventListener('click', displayMenu);
+  closeButton1.addEventListener('click', closeMenu);
+  closeButton1.addEventListener('click', closeMenu2);
 }
