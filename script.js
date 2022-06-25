@@ -65,8 +65,9 @@ desktopPopup.innerHTML = `    <div class="seeproject" id="project1">
 </div>
 `;
 
+const btnOne = document.querySelectorAll('.button1');
 const Btn = document.querySelector('#ject');
-const Btn1 = document.querySelector('#ject1');
+// const Btn1 = document.querySelector('#ject1');
 const closeButton = document.querySelector('.cross');
 const closeButton1 = document.querySelector('.crossdt');
 const hero = document.querySelector('#back');
@@ -98,13 +99,18 @@ function closeMenu() {
 }
 
 const mediaQuery = window.matchMedia('(max-width: 768px)');
-if (mediaQuery.matches) {
-  Btn.addEventListener('click', displayMenu2);
-  Btn1.addEventListener('click', displayMenu2);
-  closeButton.addEventListener('click', closeMenu4);
-} else {
-  Btn.addEventListener('click', displayMenu);
-  Btn1.addEventListener('click', displayMenu);
-  closeButton1.addEventListener('click', closeMenu);
-  closeButton1.addEventListener('click', closeMenu2);
-}
+
+btnOne.forEach(button => {
+    if (mediaQuery.matches) {
+        button.addEventListener('click', displayMenu2);
+        button.addEventListener('click', displayMenu2);
+        closeButton.addEventListener('click', closeMenu4);
+      } else {
+        button.addEventListener('click', displayMenu);
+        button.addEventListener('click', displayMenu);
+        closeButton1.addEventListener('click', closeMenu);
+        closeButton1.addEventListener('click', closeMenu2);
+      }
+});
+
+
