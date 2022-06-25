@@ -148,7 +148,6 @@ function displayMenu() {
 
 function closeMenu2() {
   desktopPopup.style.display = 'none';
-  hero.style.display = 'none';
   hero.style.filter = 'blur(0)'
   header.style.filter = 'blur(0)'
   port.style.filter = 'blur(0)'
@@ -159,7 +158,6 @@ function closeMenu2() {
 
 function closeMenu() {
   desktopPopup.style.display = 'none';
-  hero.style.display = 'none';
   hero.style.filter = 'blur(0)'
   header.style.filter = 'blur(0)'
   port.style.filter = 'blur(0)'
