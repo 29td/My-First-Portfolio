@@ -35,7 +35,7 @@ iconLink3.addEventListener('click', () => {
   logo.style.visibility = 'visible';
 });
 
-//email validation
+// email validation
 
 document.querySelector('.btn6').addEventListener('click', (event) => {
   const email = document.getElementById('mail').value;
