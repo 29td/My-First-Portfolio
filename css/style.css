@@ -137,18 +137,8 @@ hr {
   gap: 24px;
   width: 90%;
   height: 100%;
-
-  /* overflow: auto; */
   z-index: 10;
-
-  /* visibility: hidden; */
-
-  /* display: none; */
 }
-
-/* .seeproject:active {
-  opacity: 0;
-} */
 
 .project-list ul {
   list-style: none;
@@ -808,6 +798,10 @@ form {
     line-height: 20px;
   }
 
+  .work-title {
+    margin-top: 0;
+  }
+
   .menu {
     list-style: none;
   }
@@ -1067,7 +1061,7 @@ form {
   }
 
   #pop-up-img {
-    width: initial;
+    width: 60%;
     height: 448px;
     margin: -32px 25px 0 24px;
   }
@@ -1110,8 +1104,8 @@ form {
     gap: 12px;
     width: 350px;
     position: absolute;
-    bottom: 28px;
-    right: 33px;
+    bottom: 8px;
+    right: 21px;
   }
 
   .power {
@@ -1138,13 +1132,12 @@ form {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-
-    /* width: 424px; */
-    height: 336px;
+    line-height: 30px;
+    width: 35%;
+    height: auto;
     position: absolute;
-    right: 65px;
-    bottom: 129px;
+    right: 7px;
+    bottom: 115px;
   }
 
   #ject1 {
