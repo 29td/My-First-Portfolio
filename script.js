@@ -49,7 +49,7 @@ form.addEventListener('getInTouch', (e) => {
 });
   
 function checkInputs() {
-  const emailValue = email.value.trim();
+  const emailRegex = email.value.trim();
   
 }
 
