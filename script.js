@@ -61,6 +61,14 @@ function onChanged(input) {
   });
 }
 
+const formData = JSON.parse(window.localStorage.getItem('form'));
+name1.value = formData.nameValue;
+email2.value = formData.emailValue;
+message3.value = formData.messageValue;
+
+onChanged(name1);
+onChanged(email2);
+onChanged(message3);
 
 // email validation
 
