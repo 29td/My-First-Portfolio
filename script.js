@@ -217,7 +217,7 @@ const mediaQuery = window.matchMedia('(max-width: 768px)');
 
 btnOne.forEach((button) => {
   if (mediaQuery.matches) {
-    button.addEventListener('click', displayMenu2);
+    button.addEventListener('click', displayMenu2());
     button.addEventListener('click', displayMenu2);
     closeButton.addEventListener('click', closeMenu4);
   } else {
