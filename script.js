@@ -36,53 +36,13 @@ iconLink3.addEventListener('click', () => {
 });
 
 //email validation
-  // const form = document.querySelector('form');
-const email = document.querySelector('[type=email]');
-const emailRegex = /^[a-z]+@[a-z]{3,}.[a-z]{2,}?.*([a-z]{2,})/g
-const errorMsg = 'Please enter a lowercase email'
-const errorMessage = document.querySelector('small')
-const form = document.querySelector ('.form')
 
-form.addEventListener('getInTouch', (e) => {
-  e.preventDefault();
-  checkInputs();
-});
-  
-function checkInputs() {
-  const emailRegex = email.value.trim();
-  
-}
-
-// errorMessage.textContent = "please enter a valid mail"; 
-
-  if (emailValue === '') {
-    setErrorFor(email, 'Email cannot be blank.');
-
-  }else if(!email(emailValue)){
-    setErrorFor(email, 'Invalid email address.');
-  }else{
-    setSuccessFor(email);
+document.querySelector('.btn6').addEventListener('click', (event) => {
+  const email = document.getElementById('mail').value;
+  const lowcaseError = document.querySelector('.error');
+  const isLowerCase = (str) => str === str.toLowerCase();
+  if (!isLowerCase(email)) {
+    event.preventDefault();
+    lowcaseError.innerHTML = 'Please use lowercase letters and proper mail pattern';
   }
-
-function setErrorFor(input, message) {
-  const formControl = input.parentElement;
-  const small = formControl.querySelector('small');
-}
-
-
-// function showMessage(email, message, type) {
-//   const errorMessage = email.parentNode.querySelector('small')
-//   errorMessage.textContent = message; 
-//   if (type) {
-//     return valid;
-//   }
-//   return invalid;
-// }
-
-// form.addEventListener('submit',(event) => {
-//   if(showMessage(email) = invalid) {
-//     event.preventDefault();
-//     showMessage(email,errorMsg,false);
-//   }
-//   form.submit();
-// })
+});
