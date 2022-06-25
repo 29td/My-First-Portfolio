@@ -39,7 +39,7 @@ iconLink3.addEventListener('click', () => {
 // email validation
 
 document.querySelector('.btn6').addEventListener('click', (event) => {
-  const email = document.getElementById('mail').value;
+  const email = document.getElementById('#mail').value;
   const lowcaseError = document.querySelector('.error');
   const isLowerCase = (str) => str === str.toLowerCase();
   if (!isLowerCase(email)) {
