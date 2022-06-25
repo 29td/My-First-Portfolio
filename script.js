@@ -3,7 +3,7 @@ const desktopPopup = document.querySelector('.desktop-popup');
 
 const project = {
   name: 'Multi Post Stories',
-  description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. In repellendus doloribus aliquid quas cum provident harum similique rerum illo nam non, totam vero earum vitae delectus, debitis incidunt voluptatibus ipsa!',
+  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
   featuredImage: './assets/images/Snap.png',
   technologies: ['html', 'bootstrap', 'Ruby on rails'],
   linkToLiveVersion: 'https://29td.github.io/My-First-Portfolio/',
