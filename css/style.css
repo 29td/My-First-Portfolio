@@ -259,7 +259,6 @@ hr {
   display: none;
   width: 100vw;
   height: 1000vh;
-  filter: blur(5px);
   background-color: #979493;
   mix-blend-mode: multiply;
   z-index: 5;

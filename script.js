@@ -67,35 +67,66 @@ desktopPopup.innerHTML = `    <div class="seeproject" id="project1">
 
 const btnOne = document.querySelectorAll('.button1');
 const Btn = document.querySelector('#ject');
-// const Btn1 = document.querySelector('#ject1');
+const hero = document.querySelector('.hero');
+const header = document.querySelector('header');
+const port = document.querySelector('#my_portfolio');
+const about = document.querySelector('#about_section');
+const contact = document.querySelector('#contact_section');
+const footer = document.querySelector('footer');
 const closeButton = document.querySelector('.cross');
 const closeButton1 = document.querySelector('.crossdt');
-const hero = document.querySelector('#back');
 
 function displayMenu2() {
   mobilePopup.style.display = 'block';
-  hero.style.display = 'block';
   window.scroll({ top: 0, left: 0 });
+  hero.style.filter = 'blur(5px)'
+  header.style.filter = 'blur(5px)'
+  port.style.filter = 'blur(5px)'
+  contact.style.filter = 'blur(5px)'
+  about.style.filter = 'blur(5px)'
+  footer.style.filter = 'blur(5px)'
 }
 function closeMenu4() {
   mobilePopup.style.display = 'none';
-  hero.style.display = 'none';
+  hero.style.filter = 'blur(0)'
+  header.style.filter = 'blur(0)'
+  port.style.filter = 'blur(0)'
+  contact.style.filter = 'blur(0)'
+  about.style.filter = 'blur(0)'
+  footer.style.filter = 'blur(0)'
 }
 
 function displayMenu() {
   desktopPopup.style.display = 'block';
-  hero.style.display = 'block';
+  hero.style.filter = 'blur(5px)';
+  header.style.filter = 'blur(5px)'
+  port.style.filter = 'blur(5px)'
+  contact.style.filter = 'blur(5px)'
+  about.style.filter = 'blur(5px)'
+  footer.style.filter = 'blur(5px)'
   window.scroll({ top: 0, left: 0 });
 }
 
 function closeMenu2() {
   desktopPopup.style.display = 'none';
   hero.style.display = 'none';
+  hero.style.filter = 'blur(0)'
+  header.style.filter = 'blur(0)'
+  port.style.filter = 'blur(0)'
+  contact.style.filter = 'blur(0)'
+  about.style.filter = 'blur(0)'
+  footer.style.filter = 'blur(0)'
 }
 
 function closeMenu() {
   desktopPopup.style.display = 'none';
   hero.style.display = 'none';
+  hero.style.filter = 'blur(0)'
+  header.style.filter = 'blur(0)'
+  port.style.filter = 'blur(0)'
+  contact.style.filter = 'blur(0)'
+  about.style.filter = 'blur(0)'
+  footer.style.filter = 'blur(0)'
 }
 
 const mediaQuery = window.matchMedia('(max-width: 768px)');
