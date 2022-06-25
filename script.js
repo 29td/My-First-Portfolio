@@ -36,6 +36,20 @@ iconLink3.addEventListener('click', () => {
   logo.style.visibility = 'visible';
 });
 
+// email validation
+
+document.querySelector('.btn6').addEventListener('click', (event) => {
+  const email = document.getElementById('mail').value;
+  const lowcaseError = document.querySelector('.error');
+  const isLowerCase = (str) => str === str.toLowerCase();
+  if (!isLowerCase(email)) {
+    event.preventDefault();
+    lowcaseError.innerHTML = 'Please use lowercase letters and proper mail pattern';
+    setTimeout(() => {
+      lowcaseError.innerHTML = '';
+    }, 5000);
+  }
+});
 // popup window
 const mobilePopup = document.querySelector('.menu-popup');
 const desktopPopup = document.querySelector('.desktop-popup');
