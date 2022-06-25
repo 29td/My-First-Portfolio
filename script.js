@@ -36,6 +36,32 @@ iconLink3.addEventListener('click', () => {
   logo.style.visibility = 'visible';
 });
 
+// local storage
+const name1 = document.getElementById('name');
+const email2 = document.getElementById('mail');
+const message3 = document.getElementById('msg');
+
+if (!localStorage.getItem('form')) {
+  const form = {
+    nameValue: '',
+    emailValue: '',
+    textValue: '',
+  };
+  localStorage.setItem('form', JSON.stringify(form));
+}
+
+function onChanged(input) {
+  input.addEventListener('change', () => {
+    const form = {
+      nameValue: name1.value,
+      emailValue: email2.value,
+      messageValue: message3.value,
+    };
+    window.localStorage.setItem('form', JSON.stringify(form));
+  });
+}
+
+
 // email validation
 
 document.querySelector('.btn6').addEventListener('click', (event) => {
