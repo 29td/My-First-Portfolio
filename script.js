@@ -48,7 +48,8 @@ document.querySelector('.btn6').addEventListener('click', (event) => {
     setTimeout(() => {
       lowcaseError.innerHTML = '';
     }, 5000);
-    
+  }
+});
 // popup window
 const mobilePopup = document.querySelector('.menu-popup');
 const desktopPopup = document.querySelector('.desktop-popup');
