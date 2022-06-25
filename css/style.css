@@ -1125,6 +1125,10 @@ form {
     cursor: pointer;
   }
 
+  #ject {
+    display: block;
+  }
+
   .project-body {
     color: #344563;
     font-family: 'Inter', sans-serif;
