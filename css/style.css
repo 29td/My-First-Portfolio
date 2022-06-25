@@ -4,6 +4,7 @@
 * {
   margin: 0;
   padding: 0;
+  max-width: 375px;
   box-sizing: border-box;
 }
 
@@ -362,6 +363,9 @@ a {
 .work-item p {
   color: #091e42;
   font-family: "Inter", sans-serif;
+  width: 92vw;
+  display: flex;
+  flex-wrap: wrap;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -742,6 +746,10 @@ form {
 }
 
 @media only screen and (min-width: 768px) {
+  * {
+    max-width: 1440px;
+  }
+
   header {
     height: 53px;
     display: flex;
