@@ -36,14 +36,38 @@ iconLink3.addEventListener('click', () => {
 });
 
 //email validation
+  // const form = document.querySelector('form');
 const email = document.querySelector('[type=email]');
 const emailRegex = /^[a-z]+@[a-z]{3,}.[a-z]{2,}?.*([a-z]{2,})/g
 const errorMsg = 'Please enter a lowercase email'
 const errorMessage = document.querySelector('small')
 const form = document.querySelector ('.form')
 
+form.addEventListener('getInTouch', (e) => {
+  e.preventDefault();
+  checkInputs();
+});
+  
+function checkInputs() {
+  const emailValue = email.value.trim();
+  
+}
+
 // errorMessage.textContent = "please enter a valid mail"; 
 
+  if (emailValue === '') {
+    setErrorFor(email, 'Email cannot be blank.');
+
+  }else if(!email(emailValue)){
+    setErrorFor(email, 'Invalid email address.');
+  }else{
+    setSuccessFor(email);
+  }
+
+function setErrorFor(input, message) {
+  const formControl = input.parentElement;
+  const small = formControl.querySelector('small');
+}
 
 
 // function showMessage(email, message, type) {
