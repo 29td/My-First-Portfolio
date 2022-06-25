@@ -12,22 +12,28 @@
     <script src="https://kit.fontawesome.com/d55257b723.js" crossorigin="anonymous"></script>
     <title>My Portfolio</title>
 </head>
-
 <body>
+    <div class="menu-popup">
+    </div>    
+    <div class="desktop-popup">
+    </div>
     <header>
         <nav class="menu">
             <a href="#" class="logo">Nonhlanhla</a>
 
-            <ul class="icons">
-                <li class="icon">
-                    <a href="#" class="icon-link">Portfolio</a>
+            <ul class="icons" id="nav-icons">
+                <li class="icon" >
+                    <a href="#my_portfolio" class="icon-link">Portfolio</a>
                 </li>
                 <li class="icon">
-                    <a href="#" class="icon-link2">About</a>
+                    <a href="#about_section" class="icon-link2">About</a>
                 </li>
                 <li class="icon">
-                    <a href="#" class="icon-link3">Contact</a>
+                    <a href="#contact_section" class="icon-link3">Contact</a>
                 </li>
+                <li class="icon">
+                    <a href="#"><i class="fas fa-envelope"></i></a>                </li>
+
             </ul>
             <a href="#" class="ham">
                 <span class="bars"></span>
@@ -36,8 +42,10 @@
             </a>
         </nav>
     </header>
-    <section class="hero ">
-        <div class="home-content ">
+    <div id="back">
+    </div>
+    <section class="hero">
+        <div class="home-content">
             <div class="content-home ">
                 <h1>Hey There. <br />I’m Nonhlanhla Mndebele</h1>
                 <h2>I’am a Software Developer</h2>
@@ -97,9 +105,9 @@
                         <li>bootstrp</li>
                         <li>Ruby</li>
                     </ul>
-                    <button type="button">See Project</button>
-                </div>
-
+                    <button id="ject" class="button1 window" type="submit">See Project</button>                
+                
+                    </div>
             </div>
             <div class="work-item-alt work-item-alt1 ">
                 <div class="work-item-alt-content content1">
@@ -115,7 +123,7 @@
                         </ul>
                     </div>
 
-                    <button type="button" class="button1">See Project</button>
+                    <button id="ject1" class="button1 window" type="submit">See Project</button>
                 </div>
             </div>
             <div class="work-item-alt">
@@ -129,56 +137,8 @@
                         <li>Bootstrap</li>
                         <li>Ruby</li>
                     </ul>
-                    <button type="button">See Project</button>
                 </div>
-
-                <!-- <a href="# ">See Project</a> -->
-            </div>
-            <div class="work-item-alt">
-                <div class="work-item-alt-content">
-                    <h1>Profesional Art Printing Data</h1>
-                    <p>
-                        A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry’s standard
-                    </p>
-                    <ul>
-                        <li>html</li>
-                        <li>Bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button type="button">See Project</button>
-                </div>
-
-                <!-- <a href="# ">See Project</a> -->
-            </div>
-            <div class="work-item-alt">
-                <div class="work-item-alt-content">
-                    <h1>Profesional Art Printing Data</h1>
-                    <p>
-                        A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry’s standard
-                    </p>
-                    <ul>
-                        <li>html</li>
-                        <li>Bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button type="button">See Project</button>
-                </div>
-
-                <!-- <a href="# ">See Project</a> -->
-            </div>
-            <div class="work-item-alt">
-                <div class="work-item-alt-content">
-                    <h1>Profesional Art Printing Data</h1>
-                    <p>
-                        A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry’s standard
-                    </p>
-                    <ul>
-                        <li>html</li>
-                        <li>Bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button type="button">See Project</button>
-                </div>
+                <button class="button1 window" type="submit">See Project</button>
 
             </div>
             <div class="work-item-alt">
@@ -192,8 +152,53 @@
                         <li>Bootstrap</li>
                         <li>Ruby</li>
                     </ul>
-                    <button type="button">See Project</button>
                 </div>
+                <button class="button1 window" type="submit">See Project</button>
+
+            </div>
+            <div class="work-item-alt">
+                <div class="work-item-alt-content">
+                    <h1>Profesional Art Printing Data</h1>
+                    <p>
+                        A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry’s standard
+                    </p>
+                    <ul>
+                        <li>html</li>
+                        <li>Bootstrap</li>
+                        <li>Ruby</li>
+                    </ul>
+                </div>
+                <button class="button1 window" type="submit">See Project</button>
+
+            </div>
+            <div class="work-item-alt">
+                <div class="work-item-alt-content">
+                    <h1>Profesional Art Printing Data</h1>
+                    <p>
+                        A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry’s standard
+                    </p>
+                    <ul>
+                        <li>html</li>
+                        <li>Bootstrap</li>
+                        <li>Ruby</li>
+                    </ul>
+                </div>
+                <button class="button1 window" type="submit">See Project</button>
+
+            </div>
+            <div class="work-item-alt">
+                <div class="work-item-alt-content">
+                    <h1>Profesional Art Printing Data</h1>
+                    <p>
+                        A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry’s standard
+                    </p>
+                    <ul>
+                        <li>html</li>
+                        <li>Bootstrap</li>
+                        <li>Ruby</li>
+                    </ul>
+                </div>
+                <button class="button1 window" type="submit">See Project</button>
 
             </div>
         </div>
@@ -253,8 +258,6 @@
                         </ul>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </section>
@@ -265,16 +268,18 @@
             </p>
             <form class="form" action="https://formspree.io/f/xrgjdpow" method="POST">
                 <input type="text" name="name" class="text" placeholder="Full name" maxlength="30" required />
+
                <div class="email">
                 <input id="mail" type="email" class="text" placeholder="Email address" required />
                 </div>
+                <input type="email" class="text" placeholder="Email address" pattern=" (?=.*[a-z])(?=.*[A-Z])"  required />
+
                 <textarea name="comment " class="input-text " placeholder="Enter text here " maxlength="500"></textarea>
                 <div class="error"></div>
                 <button type="submit" class="button btn6">Get in touch</button>
             </form>
         </div>
     </section>
-
 
     <footer id="footer">
         <hr>
